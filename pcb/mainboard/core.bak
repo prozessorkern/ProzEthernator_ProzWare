@@ -61,32 +61,38 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
-Title ""
+Sheet 2 10
+Title "ProzEthernatorMainboard"
 Date ""
-Rev ""
-Comp ""
+Rev "00"
+Comp "Shimatta"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2000 2200 1400 2400
+S 2000 1350 1400 2400
 U 5A7CAB88
 F0 "mcuCore" 60
 F1 "mcuCore.sch" 60
 $EndSheet
 $Sheet
-S 4500 2200 1400 2400
+S 4500 1350 1400 2400
 U 5A7CAB8B
-F0 "memory" 60
-F1 "memory.sch" 60
+F0 "ram" 60
+F1 "ram.sch" 60
 $EndSheet
 $Sheet
-S 7250 2200 1450 2400
+S 7250 1350 1450 2400
 U 5A7CAB8E
 F0 "gpio" 60
 F1 "gpio.sch" 60
+$EndSheet
+$Sheet
+S 4500 4300 1400 1600
+U 5A866919
+F0 "nonvolatileMemory" 60
+F1 "nonvolatileMemory.sch" 60
 $EndSheet
 $EndSCHEMATC

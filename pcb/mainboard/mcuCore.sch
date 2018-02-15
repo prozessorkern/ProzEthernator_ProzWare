@@ -61,11 +61,11 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
-Title ""
+Sheet 3 10
+Title "ProzEthernatorMainboard"
 Date ""
-Rev ""
-Comp ""
+Rev "00"
+Comp "Shimatta"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -92,5 +92,16 @@ F 2 "" H 8150 4950 60  0001 C CNN
 F 3 "" H 8150 4950 60  0001 C CNN
 	2    8150 4950
 	1    0    0    -1  
+$EndComp
+$Comp
+L 10PIN_JTAG_SWD CON?
+U 1 1 5A86049C
+P 10250 1350
+F 0 "CON?" H 10150 650 60  0000 C CNN
+F 1 "10PIN_JTAG_SWD" H 10150 2050 60  0000 C CNN
+F 2 "" H 10250 1350 60  0001 C CNN
+F 3 "" H 10250 1350 60  0001 C CNN
+	1    10250 1350
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
